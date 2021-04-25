@@ -3,17 +3,17 @@
   "name": "Portafolio Iosvany Alvarez",
   "icons": [
     {
-      "src": "assets/img/favicon.png",
+      "src": "./assets/img/favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "assets/img/logo192.png",
+      "src": "./assets/img/logo192.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "assets/img/logo512.png",
+      "src": "./assets/img/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
