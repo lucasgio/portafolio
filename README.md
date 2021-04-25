@@ -1,9 +1,9 @@
 
 This is my portfolio where is my skills and personal projects where I have worked
 
-### NPM INSTALL
-## To install depedencies
+### To install depedencies
+##  npm install
 
 
-### NPM START 
-## To run the project in you browser
+### To run the project in you browser
+## npm start
