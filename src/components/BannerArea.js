@@ -1,19 +1,19 @@
 import React from 'react'
 
 
-const BannerArea = props => {
+const BannerArea = ({id}) => {
 
   const name = "Iosvany Alvarez";
   const dev  = "Full Stack Developer";
   const text = `
-    Full Stack Developer. I love working on projects, I am positive, responsible, adaptable, and a team worker.
+    I love working on projects, I am positive, responsible, adaptable, and a team worker.
     I am open to relocating to discover new challenges and contribute my skills and knowledge. 
     I have experience in React.js - Node.js - Flutter (Android & iOS native app development). 
   `;
 
     return (
 
-            <div id="home" className="main-banner bg-black">
+            <div key={id} id="home" className="main-banner bg-black">
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-lg-6 col-md-12">

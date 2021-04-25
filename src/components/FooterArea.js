@@ -1,14 +1,14 @@
 import React from "react";
 
-function FooterArea() {
+function FooterArea({id}) {
   return (
-    <div id="contact">
+    <div key={id} id="contact">
       <footer className="footer-area">
         <div className="container">
           <div className="footer-content">
             <div className="logo">
               <a href="index.html">
-                <img src="assets/img/logo192.png" alt="image" />
+                <img src="assets/img/logo192.png" alt="_" />
               </a>
               <p>
                 Lorem ipsum dolor consectetur adipiscing elit, eiusmod tempor ut
@@ -16,35 +16,35 @@ function FooterArea() {
               </p>
               <ul className="footer-contact-info">
                 <li>
-                  Email: <a href="#">info@axton.com</a>
+                  Email: <a href="_">info@axton.com</a>
                 </li>
                 <li>
-                  Phone: <a href="#">+44 478 857 7458</a>
+                  Phone: <a href="_">+44 478 857 7458</a>
                 </li>
               </ul>
               <ul className="social">
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="_" target="_blank">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="_" target="_blank">
                     <i className="fab fa-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="_" target="_blank">
                     <i className="fab fa-github-square" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="_" target="_blank">
                     <i className="fab fa-dribbble" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" target="_blank">
+                  <a href="_" target="_blank">
                     <i className="fab fa-behance" />
                   </a>
                 </li>
@@ -54,10 +54,10 @@ function FooterArea() {
         </div>
         <div className="br-line" />
         <div className="footer-shape1">
-          <img src="assets/img/shape3.png" alt="image" />
+          <img src="assets/img/shape3.png" alt="_" />
         </div>
         <div className="footer-shape2">
-          <img src="assets/img/shape4.png" alt="image" />
+          <img src="assets/img/shape4.png" alt="_" />
         </div>
       </footer>
       <div className="copyright-area">
@@ -72,10 +72,10 @@ function FooterArea() {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <a href="#">Terms &amp; Conditions</a>
+                  <a href="_">Terms &amp; Conditions</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="_">Privacy Policy</a>
                 </li>
               </ul>
             </div>

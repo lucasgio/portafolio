@@ -1,9 +1,9 @@
 import React from 'react'
 
-function SeparateComponent() {
+function SeparateComponent({id}) {
     return (
 
-        <div class="separate bg-black">
+        <div key={id} class="separate bg-black">
         <div class="br-line"></div>
         </div>
 

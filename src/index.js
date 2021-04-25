@@ -7,22 +7,28 @@ import NavigationBar from './components/NavigationBar';
 import ProjectArea from './components/ProjectArea';
 import SeparateComponent from './components/SeparateComponent';
 import ServicesArea from './components/ServicesArea';
-import TecnologyArea from './components/TecnologyArea';
+// import TecnologyArea from './components/TecnologyArea';
+
+const divRoot = document.querySelector("#root");
 
 
-const divroot = document.querySelector("#root");
+
+
+
+
+
+
 ReactDOM.render(
     [
-        <NavigationBar />,
+        <NavigationBar  />,
         <BannerArea />,
         <ServicesArea />,
         <SeparateComponent />,
         <AboutArea />,
         <SeparateComponent />,
-        <TecnologyArea />,
         <SeparateComponent />,
         <ProjectArea />,
         <SeparateComponent />,
         <FooterArea />
-        
-    ],divroot);
+    ],divRoot);
+

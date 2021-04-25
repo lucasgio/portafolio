@@ -1,18 +1,18 @@
 import React from 'react'
 
-function ProjectArea() {
+function ProjectArea({id}) {
     return (
-      <section id="projects" className="projects-area ptb-80 bg-black">
+      <section key={id} id="projects" className="projects-area ptb-80 bg-black">
         <div className="container">
           <div className="section-title">
-            <span>Our completed projects</span>
+            <span>Projects</span>
             <h2>Recent Projects</h2>
             <div className="bar" />
           </div>
         </div>
         <div className="projects-slides owl-carousel owl-theme">
           <div className="single-projects-box">
-            <a href="#">
+            <a href="_">
               <img src="assets/img/projects/1.jpg" alt="img" />
             </a>
             <div className="projects-content">
@@ -23,7 +23,7 @@ function ProjectArea() {
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="#">
+            <a href="_">
               <img src="assets/img/projects/2.jpg" alt="img" />
             </a>
             <div className="projects-content">
@@ -34,7 +34,7 @@ function ProjectArea() {
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="#">
+            <a href="_">
               <img src="assets/img/projects/3.jpg" alt="img" />
             </a>
             <div className="projects-content">
@@ -45,7 +45,7 @@ function ProjectArea() {
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="#">
+            <a href="_">
               <img src="assets/img/projects/4.jpg" alt="img" />
             </a>
             <div className="projects-content">
@@ -56,7 +56,7 @@ function ProjectArea() {
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="#">
+            <a href="_">
               <img src="assets/img/projects/5.jpg" alt="img" />
             </a>
             <div className="projects-content">

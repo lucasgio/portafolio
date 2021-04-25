@@ -1,8 +1,8 @@
 import React from "react";
 
-const ServicesArea = () => {
+const ServicesArea = ({id}) => {
   return (
-    <section className="featured-services-area bg-black">
+    <section key={id} className="featured-services-area bg-black">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
@@ -10,11 +10,10 @@ const ServicesArea = () => {
               <div className="icon">
                 <i className="fab fa-html5" />
               </div>
-              <h3>Email Marketing</h3>
+              <h3>HTML5</h3>
               <div className="bar" />
               <p>
-                Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum
-                dolor consectetur adipiscing elit.
+              Layout with web pages with static and dynamic content.
               </p>
               <div className="shape-img">
                 <img src="assets/img/shape1.png" alt="" />
@@ -26,11 +25,10 @@ const ServicesArea = () => {
               <div className="icon">
                 <i className="fab fa-css3" />
               </div>
-              <h3>Market Analysis</h3>
+              <h3>CSS</h3>
               <div className="bar" />
               <p>
-                Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum
-                dolor consectetur adipiscing elit.
+              Design of web pages with adaptable user interfaces and easy to understand.
               </p>
               <div className="shape-img">
                 <img src="assets/img/shape1.png" alt="" />
@@ -42,11 +40,10 @@ const ServicesArea = () => {
               <div className="icon">
                 <i className="fab fa-js-square" />
               </div>
-              <h3>Keyword Research</h3>
+              <h3>JAVASCRIPT</h3>
               <div className="bar" />
               <p>
-                Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum
-                dolor consectetur adipiscing elit.
+              Programming a clean and scalable logic in client side.
               </p>
               <div className="shape-img">
                 <img src="assets/img/shape1.png" alt="" />
@@ -63,11 +60,10 @@ const ServicesArea = () => {
               <div className="icon">
                 <i className="fab fa-react" />
               </div>
-              <h3>Email Marketing</h3>
+              <h3>REACT.JS</h3>
               <div className="bar" />
               <p>
-                Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum
-                dolor consectetur adipiscing elit.
+              Development of web applications with a magnificent and powerful library.
               </p>
               <div className="shape-img">
                 <img src="assets/img/shape1.png" alt="" />
@@ -79,11 +75,10 @@ const ServicesArea = () => {
               <div className="icon">
                 <i className="fab fa-node-js" />
               </div>
-              <h3>Market Analysis</h3>
+              <h3>NODE.JS</h3>
               <div className="bar" />
               <p>
-                Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum
-                dolor consectetur adipiscing elit.
+              Creation of applications in scalable and maintainable server environments.
               </p>
               <div className="shape-img">
                 <img src="assets/img/shape1.png" alt="" />
@@ -95,11 +90,10 @@ const ServicesArea = () => {
               <div className="icon">
                 <i className="fab fa-php" />
               </div>
-              <h3>Keyword Research</h3>
+              <h3>PHP</h3>
               <div className="bar" />
               <p>
-                Risus commodo maecenas accumsan lacus vel facilisis. Lorem ipsum
-                dolor consectetur adipiscing elit.
+              Creation of dynamic sites with a variety of frameworks.
               </p>
               <div className="shape-img">
                 <img src="assets/img/shape1.png" alt="" />
