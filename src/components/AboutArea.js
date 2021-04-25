@@ -129,7 +129,7 @@ function AboutArea({id}) {
                 <i className="flaticon-briefcase" />
                 <h3>Download</h3>
                 <div className="bar" />
-                  <a href="/assets/Iosvany_Alvarez_CV_ENG.pdf" download="" className="default-btn white-color-btn">
+                  <a href="./assets/cv.pdf" className="default-btn white-color-btn">
                     Download CV
                   </a>
                 </div>

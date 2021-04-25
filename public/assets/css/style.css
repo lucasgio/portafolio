@@ -3723,6 +3723,16 @@ Copyright CSS
   display: none;
 }
 
+@media only screen and (max-width: 767px){
+  .line-1, .line-2 {
+    display: none;
+  }
+}
+
+
+
+
+
 .line {
   position: relative;
   top: 50%;
