@@ -3736,28 +3736,58 @@ Copyright CSS
 }
 
 /*Animation*/
-.anim-typewriter {
-  animation: typewriter 4s steps(184) 1s 1 normal both,
-  blinkTextCursor 500ms steps(184) infinite normal;
+.line-1{
+  position: relative;
+  top: 50%;  
+  width: 12em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
 }
 
-
-@keyframes typewriter {
-  from {
-        width: 0;
-  }
-  to {
-        width: 16em;
-  }
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(17) 1s 1 normal both,
+           blinkTextCursor 500ms steps(17) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 12em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
 }
 
-@keyframes blinkTextCursor {
-  from {
-        border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-        border-right-color: transparent;
-  }
+.line-2{
+  position: relative;
+  top: 50%;  
+  width: 12em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter2{
+animation: typewriter 6s steps(17) 5s 1 normal both,
+           blinkTextCursor 500ms steps(17) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 12em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
 }
 
 

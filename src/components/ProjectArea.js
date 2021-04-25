@@ -12,25 +12,25 @@ function ProjectArea({id}) {
         </div>
         <div className="projects-slides owl-carousel owl-theme">
           <div className="single-projects-box">
-            <a href="_">
+            <a href="https://wilmaalbacal.com/">
               <img src="assets/img/projects/1.jpg" alt="img" />
             </a>
             <div className="projects-content">
               <h3>
-                <a href="single-projects.html">Development</a>
+                <a href="https://wilmaalbacal.com/">Portafolio Composer Wilma Alba Cal</a>
               </h3>
-              <span>Web / Mobile</span>
+              <span>PHP| HTML5 | JQUERY</span>
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="_">
+            <a href="https://www.wilmaalbacal.com/blog/">
               <img src="assets/img/projects/2.jpg" alt="img" />
             </a>
             <div className="projects-content">
               <h3>
-                <a href="single-projects.html">Architecture</a>
-              </h3>
-              <span>Home / Bridge</span>
+                <a href="https://www.wilmaalbacal.com/blog/">Blog Composer Wilma Alba Cal</a>
+              </h3> 
+              <span>WORDPRESS |PHP | JQUERY</span>
             </div>
           </div>
           <div className="single-projects-box">
@@ -39,20 +39,20 @@ function ProjectArea({id}) {
             </a>
             <div className="projects-content">
               <h3>
-                <a href="single-projects.html">UX/UI Design</a>
+                <a href="_"> SISTALLER || Workshop Management System </a>
               </h3>
-              <span>Web / Mobile</span>
+              <span>PHP | CODEIGNITER | BOOTSTRAPS | JQUERY </span>
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="_">
+          <a href="_">
               <img src="assets/img/projects/4.jpg" alt="img" />
             </a>
             <div className="projects-content">
               <h3>
-                <a href="single-projects.html">Marketing</a>
+                <a href="_">MovieDB | </a>
               </h3>
-              <span>Digital / Affiliate</span>
+              <span>FLUTTER || API || IOS & ANDROID</span>
             </div>
           </div>
           <div className="single-projects-box">
@@ -61,9 +61,9 @@ function ProjectArea({id}) {
             </a>
             <div className="projects-content">
               <h3>
-                <a href="single-projects.html">Photography</a>
+                <a href="_">QRCODE || READER QR CODE </a>
               </h3>
-              <span>Digital / Photo</span>
+              <span>FLUTTER || API GOOGLE MAPS || IOS & ANDROID </span>
             </div>
           </div>
         </div>

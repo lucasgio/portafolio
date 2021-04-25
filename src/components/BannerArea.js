@@ -28,13 +28,19 @@ const BannerArea = ({id}) => {
                           <li><a href="https://github.com/lucasgio/" rel="noreferrer" target="_blank"><i className="fab fa-github-square" /></a></li>
                           <li><a href="https://www.linkedin.com/in/iosvany-alvarez-7570871b9/?locale=en_US" rel="noreferrer" target="_blank"><i className="fab fa-linkedin" /></a></li>
                           <li><a href="https://www.instagram.com/iosvanyalvarez/" rel="noreferrer" target="_blank"><i className="fab fa-instagram" /></a></li>
-                          <li><a href="https://www.hackerrank.com/mikaelosoltes_91" rel="noreferrer" target="_blank"><i class="fab fa-hackerrank" /></a></li>
-                          
+                          <li><a href="https://www.hackerrank.com/mikaelosoltes_91" rel="noreferrer" target="_blank"><i className="fab fa-hackerrank" /></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
+                  <div className="col-lg-6 col-md-12">
+                      <div className="banner-content">
+                        <pre className="line-1 anim-typewriter"> const grettings =  </pre>
+                        <pre className="line-2 anim-typewriter2"> Hello, World!; </pre>  
+                      </div>
+                  </div>
                 </div>
+
               </div>
             </div>
 
