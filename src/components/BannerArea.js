@@ -22,15 +22,6 @@ const BannerArea = ({id}) => {
                       <h1>{name}</h1>
                       <span>{dev}</span>
                       <p>{text}</p>
-                      <div className="social">
-                        <ul>
-                          <li><a href="https://twitter.com/ios_devpy91?s=09" rel="noreferrer" target="_blank"><i className="fab fa-twitter" /></a></li>
-                          <li><a href="https://github.com/lucasgio/" rel="noreferrer" target="_blank"><i className="fab fa-github-square" /></a></li>
-                          <li><a href="https://www.linkedin.com/in/iosvany-alvarez-7570871b9/?locale=en_US" rel="noreferrer" target="_blank"><i className="fab fa-linkedin" /></a></li>
-                          <li><a href="https://www.instagram.com/iosvanyalvarez/" rel="noreferrer" target="_blank"><i className="fab fa-instagram" /></a></li>
-                          <li><a href="https://www.hackerrank.com/mikaelosoltes_91" rel="noreferrer" target="_blank"><i className="fab fa-hackerrank" /></a></li>
-                        </ul>
-                      </div>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-12">
