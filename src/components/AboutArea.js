@@ -16,7 +16,7 @@ function AboutArea({id}) {
                 <h3>Soft Skills</h3>
                 <div className="bar" />
                 <p>
-                My skills are based on overcoming them. I like the dedication towards achieving a clean code in the projects where I participate..
+                My skills are based on overcoming them. I like the dedication towards achieving a clean code in the projects where I participate.
                 </p>
               </div>
             </div>

@@ -11,7 +11,7 @@ function FooterArea({ id }) {
                 <img src="assets/img/logo192.png" alt="_" />
               </a>
               <p>
-              "The are two ways coding without error,just the third one, WORKS!!!"
+              "There are two ways to write error-free programs; only the third works!!!"
               </p>
               <ul className="footer-contact-info">
                 <li>
