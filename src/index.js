@@ -10,18 +10,11 @@ import ServicesArea from './components/ServicesArea';
 // import TecnologyArea from './components/TecnologyArea';
 
 const divRoot = document.querySelector("#root");
-
-
-
-
-
-
-
-
 ReactDOM.render(
     [
         <NavigationBar  />,
         <BannerArea />,
+        <SeparateComponent />,
         <ServicesArea />,
         <SeparateComponent />,
         <AboutArea />,

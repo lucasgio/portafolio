@@ -7,7 +7,7 @@ const BannerArea = ({id}) => {
   const dev  = "Full Stack Developer";
   const text = `
     I love working on projects, I am positive, responsible, adaptable, and a team worker.
-    I am open to relocating to discover new challenges and contribute my skills and knowledge. 
+    I am open to discover new challenges and contribute my skills and knowledge. 
     I have experience in React.js - Node.js - Flutter (Android & iOS native app development). 
   `;
 

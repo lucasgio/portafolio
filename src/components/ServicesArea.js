@@ -2,8 +2,12 @@ import React from "react";
 
 const ServicesArea = ({id}) => {
   return (
-    <section key={id} className="featured-services-area bg-black">
+    <section id="services" key={id} className="featured-services-area ptb-80 bg-black">
       <div className="container">
+      <div className="section-title">
+          <span>Language and frameworks</span>
+          <div className="bar" />
+        </div>
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="single-featured-services-box">

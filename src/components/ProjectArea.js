@@ -34,34 +34,34 @@ function ProjectArea({id}) {
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="_">
+            <a href="#project">
               <img src="assets/img/projects/3.jpg" alt="img" />
             </a>
             <div className="projects-content">
               <h3>
-                <a href="_"> SISTALLER || Workshop Management System </a>
+                <a href="#project"> SISTALLER || Workshop Management System </a>
               </h3>
               <span>PHP | CODEIGNITER | BOOTSTRAPS | JQUERY </span>
             </div>
           </div>
           <div className="single-projects-box">
-          <a href="_">
+          <a href="#project">
               <img src="assets/img/projects/4.jpg" alt="img" />
             </a>
             <div className="projects-content">
               <h3>
-                <a href="_">MovieDB | </a>
+                <a href="#project">MovieDB | </a>
               </h3>
               <span>FLUTTER || API || IOS & ANDROID</span>
             </div>
           </div>
           <div className="single-projects-box">
-            <a href="_">
+            <a href="#project">
               <img src="assets/img/projects/5.jpg" alt="img" />
             </a>
             <div className="projects-content">
               <h3>
-                <a href="_">QRCODE || READER QR CODE </a>
+                <a href="#project">QRCODE || READER QR CODE </a>
               </h3>
               <span>FLUTTER || API GOOGLE MAPS || IOS & ANDROID </span>
             </div>
