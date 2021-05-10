@@ -66,6 +66,28 @@ function ProjectArea({id}) {
               <span>FLUTTER || API GOOGLE MAPS || IOS & ANDROID </span>
             </div>
           </div>
+          <div className="single-projects-box">
+            <a href="#project">
+              <img src="assets/img/projects/6.jpg" alt="img" />
+            </a>
+            <div className="projects-content">
+              <h3>
+                <a href="https://lucasgio.github.io/gifexpert/">Giff Expert </a>
+              </h3>
+              <span>REACT || BOOTSTRAP  </span>
+            </div>
+          </div>
+          <div className="single-projects-box">
+            <a href="#project">
+              <img src="assets/img/projects/7.jpg" alt="img" />
+            </a>
+            <div className="projects-content">
+              <h3>
+                <a href="https://lucasgio.github.io/Blackjack/index.html"> BlackJack </a>
+              </h3>
+              <span> JAVASCRIPT || WEBPACK || BOOTSTRAP</span>
+            </div>
+          </div>
         </div>
       </section>
     );
